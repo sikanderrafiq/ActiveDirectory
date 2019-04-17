@@ -32,14 +32,49 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         MainWindow.cpp \
-    DomainControllerManager.cpp
+    DomainControllerManager.cpp \
+    AdMonitor.cpp \
+    ActiveDirectoryCategoryWidget.cpp \
+    ActiveDirectoryDomainControllerManager.cpp \
+    ActiveDirectoryEventDao.cpp \
+    AdForestComparator.cpp \
+    ActiveDirectoryEvent.cpp \
+    AdSip.cpp \
+    AdToWebPusher.cpp \
+    qliqDirectAD.cpp \
+    Scim.cpp \
+    ScimClient.cpp \
+    QliqDirect.cpp \
+    qliqDirectAD.cpp \
+    QliqDirectServer.cpp \
+    QliqDirectService.cpp \
+    MenuColumnTableWidget.cpp \
+    JsonTreeModel.cpp
 
 HEADERS += \
         MainWindow.h \
-    DomainControllerManager.h
+    DomainControllerManager.h \
+    AdMonitor.h \
+    ActiveDirectoryCategoryWidget.h \
+    ActiveDirectoryDomainControllerManager.h \
+    ActiveDirectoryEventDao.h \
+    AdForestComparator.h \
+    ActiveDirectoryEvent.h \
+    AdSip.h \
+    AdToWebPusher.h \
+    qliqDirectAD.h \
+    Scim.h \
+    ScimClient.h \
+    QliqDirect.hpp \
+    qliqDirectAD.h \
+    QliqDirectServer.h \
+    QliqDirectService.h \
+    MenuColumnTableWidget.h \
+    JsonTreeModel.h
 
 FORMS += \
-        MainWindow.ui
+        MainWindow.ui \
+    ActiveDirectoryCategoryWidget.ui
 
 
 # Active Directory
